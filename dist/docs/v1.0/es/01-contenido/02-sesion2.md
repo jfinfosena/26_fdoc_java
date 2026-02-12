@@ -1,5 +1,5 @@
 ---
-title: "Semana 3: Atributos y Constructores"
+title: "Atributos y Constructores"
 description: "Guía completa sobre atributos de clase, tipos de datos primitivos vs wrappers, conversión, encapsulamiento y el poder de los Getters y Setters."
 position: 2
 ---
