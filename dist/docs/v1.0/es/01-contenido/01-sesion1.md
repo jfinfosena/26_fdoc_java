@@ -337,3 +337,11 @@ title: "Reto de la Semana"
 ---
 Intenta modificar el "Hola Mundo" para que imprima también tu nombre y tu edad en líneas separadas. ¡Experimenta rompiendo el código (quita un punto y coma `;`) y observa qué errores te da el compilador `javac`!
 ```
+### Crear proyeto de Java
+
+```video
+---
+src: "https://vimeo.com/1166500414?share=copy&fl=sv&fe=ci"
+title: "Crear proyeto de Java"
+---
+```
