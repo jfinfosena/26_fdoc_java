@@ -4,6 +4,8 @@ description: "Gu√≠a completa y para principiantes sobre la Herencia en Java: qu√
 position: 3
 ---
 
+
+
 +++hero-section
 ---
 title: "Herencia en Java"
