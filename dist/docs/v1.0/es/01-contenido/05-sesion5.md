@@ -184,7 +184,37 @@ public class Main {
 3.  **Métodos Abstractos:** Obligan a las clases hijas a implementar una lógica específica.
 4.  **Polimorfismo:** Nos permite manejar una lista de `Empleado` y dejar que cada uno se comporte según su verdadera naturaleza en tiempo de ejecución.
 
-### ¡Desafío para ti!
-Modifica el sistema para agregar un tercer tipo de empleado: **`EmpleadoComisionista`**, quien recibe un sueldo base pequeño más un porcentaje de las ventas que realiza. 
+---
 
-¿Qué atributos nuevos necesitaría? ¿Cómo se vería su método `calcularSalario()`?
+## Actividad de Práctica: Sistema CRUD de Empleados
+
+Ahora que has aprendido los fundamentos de herencia y polimorfismo, es momento de aplicarlos en un proyecto real. Tu tarea es expandir el sistema de nómina para que sea interactivo.
+
+### Requerimientos de la Actividad:
+
+1.  **Modelo de Datos:**
+    *   Utiliza la jerarquía de clases (`Empleado`, `EmpleadoAsalariado`, `EmpleadoPorHoras`) que construimos en la guía.
+    *   Agrega un nuevo tipo de empleado: **`EmpleadoComisionista`**.
+        *   *Sugerencia:* Este empleado podría tener un sueldo base y un porcentaje de comisión sobre las ventas totales realizadas. Piensa en qué atributos adicionales necesitará y cómo se calculará su salario final.
+
+2.  **Interfaz de Consola:**
+    *   Implementa un menú interactivo mediante la consola que permita al usuario realizar las siguientes acciones de forma repetitiva hasta que decida salir:
+        *   **1. Ingresar Empleado:** Permitir elegir el tipo de empleado y capturar sus datos (ID, Nombre, Sueldo/Valor Hora/Ventas).
+        *   **2. Ver Todos los Empleados:** Mostrar la lista de todos los empleados registrados utilizando polimorfismo para mostrar sus recibos de pago.
+        *   **3. Actualizar Empleado:** Buscar un empleado por su ID y permitir modificar sus datos básicos o de salario.
+        *   **4. Eliminar Empleado:** Buscar un empleado por su ID y removerlo del sistema.
+        *   **5. Salir.**
+
+3.  **Restricciones Técnicas:**
+    *   Utiliza un `ArrayList<Empleado>` para almacenar los objetos en memoria.
+    *   Asegúrate de manejar correctamente la entrada de datos con la clase `Scanner`.
+    *   Aplica buenas prácticas de programación: nombres de variables claros, métodos con una sola responsabilidad y modularización del código.
+
+---
+
+## Resumen de Aprendizaje
+
+1.  **Clases Abstractas:** Sirven para definir el "qué" pero no el "cómo". No se pueden instanciar.
+2.  **Herencia (`extends`):** Permite reutilizar código (`nombre`, `id`) y establecer jerarquías.
+3.  **Métodos Abstractos:** Obligan a las clases hijas a implementar una lógica específica.
+4.  **Polimorfismo:** Nos permite manejar una lista de `Empleado` y dejar que cada uno se comporte según su verdadera naturaleza en tiempo de ejecución.
